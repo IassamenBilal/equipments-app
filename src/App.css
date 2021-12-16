@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.app {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+.toolbar {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+.search-input {
+  height: 40px;
+  min-width: 70px;
+  width: 50%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+}
+.card {
+  height: 100%;
+}
+
+.card img {
+  transition: all 0.4s linear;
+}
+.card:hover img {
+  transform: scale(1.05);
+}
+.no-result-title {
+  margin-top: 10% !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.equipment-infos {
+  display: flex;
+  justify-content: space-between;
+}
+.equipment-img {
+  height: 300px;
+}
+.checkpoints-title {
+  margin: 20px 0;
+}
+
+.checkpoints-img {
+  height: 150px;
+  width: 100%;
+}
+
+.footer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fecd56;
+}
